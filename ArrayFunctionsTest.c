@@ -2,8 +2,8 @@
 #include "ArrayFunctions.c"
 
 /* Filename: ArrayFunctionsTest.c
- * Programmer: Zach Blankinship
- * Purpose: This program tests various custom array functions, held in ArrayFunctions.c.
+ * Purpose: This program tests various custom array functions.
+ * Required files: ArrayFunctions.c
  */
 
 int main(void)
