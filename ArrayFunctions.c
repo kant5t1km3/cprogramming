@@ -6,6 +6,7 @@
 /* Function: MaxPos
  * Purpose: Calculate the maximum value within an array.
  * Parameters: Array holding max value, length of array.
+ * Output: Returns maximum value in array.
  */
 int MaxPos(int a[], int length)
 {
@@ -24,6 +25,7 @@ int MaxPos(int a[], int length)
 /* Function: SwapElements
  * Purpose: Swap any two given elements in an array.
  * Parameters: Array holding elements to be swapped, index of swapee 1, index of swapee 2.
+ * Output: Returns void.
  */
 void SwapElements(int a[], int index1, int index2)
 {
@@ -34,8 +36,8 @@ void SwapElements(int a[], int index1, int index2)
 
 /* Function: BinarySearch
  * Purpose: Perform a binary search on an array with a given search key.
- * Output: Returns position. pos=-1 if key not found.
  * Parameters: Array to be searched, length of array, search key to find.
+ * Output: Returns position. pos=-1 if key not found.
  */
 int BinarySearch(int a[], int length, int key)
 {
@@ -61,6 +63,7 @@ int BinarySearch(int a[], int length, int key)
 /* Function: SelectionSort
  * Purpose: Sort elements in an array by ascending order.
  * Parameters: Array to be sorted, length of array.
+ * Output: Returns void.
  */
 void SelectionSort(int a[], int length)
 {
@@ -87,6 +90,7 @@ void SelectionSort(int a[], int length)
 /* Function: PrintArray
  * Purpose: Print all elements within an array.
  * Parameters: Array to be printed, length of array.
+ * Output: Returns void.
  */
 void PrintArray(int a[], int length)
 {
